@@ -1,0 +1,44 @@
+{
+  "name": "citybike-client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-react": "^7.12.10",
+    "@material-ui/core": "^4.11.3",
+    "@material-ui/icons": "^4.11.2",
+    "axios": "^0.21.1",
+    "babel-loader": "^8.0.6",
+    "fontsource-roboto": "^4.0.0",
+    "fsevents": "^2.0.1",
+    "leaflet": "^1.7.1",
+    "material-ui": "^0.20.2",
+    "path": "^0.12.7",
+    "react": "^16.8.0",
+    "react-bootstrap": "^1.0.0",
+    "react-bootstrap-range-slider": "^2.0.2",
+    "react-dom": "^16.8.0",
+    "react-leaflet": "^2.8.0",
+    "react-scripts": "^2.1.8",
+    "react-test-renderer": "0.0.0-8e5adfbd7",
+    "socket.io-client": "^2.4.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "@types/leaflet": "^1.5.21"
+  }
+}
