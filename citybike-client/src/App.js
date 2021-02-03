@@ -47,12 +47,11 @@ class App extends Component {
     this.setState({idSlider: 0})
     this.timerID = setInterval(
       () => this.updateInfo(),
-      1000
+      10000
     );
     this.timerIDHistory = setInterval(
       () => this.updateInfoHistory(),
-      //300000
-      60000
+      300000
     );
   }
   async componentWillMount(){
